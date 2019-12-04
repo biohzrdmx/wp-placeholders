@@ -23,10 +23,12 @@ Create an `img` tag and in its `src` attribute call the `url` function from the 
 
 The first parameter is the **width**, the second one is the **height** and the last one controls whether to **echo** the generated URL or not.
 
-## License
+## Licensing
 
-Released under the **MIT License**.
+MIT licensed
+
+Includes the _Roboto Regular_ font, which is covered by the Apache License 2.0, you can [find more details here](https://github.com/google/roboto/).
 
 ## Author
 
-biohzrdmx - https://github.com/biohzrdmx - https://biohzrdmx.me
+Author: biohzrdmx [<github.com/biohzrdmx>](https://github.com/biohzrdmx)
