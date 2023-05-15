@@ -4,8 +4,8 @@ Generate placeholder images on your WP instance
 
 ## Requirements
 
- - WordPress 5.x
- - PHP 5.3+
+ - WordPress 6.2+
+ - PHP 8.2+
 
 ## Installation
 
@@ -22,6 +22,18 @@ Create an `img` tag and in its `src` attribute call the `url` function from the 
 ```
 
 The first parameter is the **width**, the second one is the **height** and the last one controls whether to **echo** the generated URL or not.
+
+Also, you can use a shortcode:
+
+```
+[placeholder width="1024" height="768"]
+```
+
+And you may also specify a custom class:
+
+```
+[placeholder width="1024" height="768" class="img-fluid"]
+```
 
 ## Licensing
 
